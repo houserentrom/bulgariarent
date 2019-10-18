@@ -1,0 +1,469 @@
+/*******************************************************************************
+Template Name: rentster
+URL: http://renster.xyz
+Author: 
+Version: 1.0
+*********************************************************************************/
+
+/*******************************************************************************
+				TABLE OF CONTENTS
+*******************************************************************************
+                0. Base css
+
+                1. Template color css
+
+                2. Header top area css
+
+                3. Header bottom area css
+
+                4. Slider area css
+
+             
+****************************************************/
+
+/*---------------------------------------------------
+                    Base css
+---------------------------------------------------*/
+
+a:focus {
+    outline: 0 solid
+}
+
+input:focus,
+textarea:focus {
+    outline: none
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Comfortaa', cursive;
+    margin: 0 0 10px;
+    color: #333333;
+    font-weight: 700;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 400;
+    color: #666;
+    line-height: 32px;
+    font-size: 16px
+}
+
+a:hover,
+a:focus {
+    outline: medium none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.4s ease 0s
+}
+
+a {
+    transition: all 0.4s ease 0s
+}
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.sp-60 {
+    padding: 60px 0;
+}
+
+/*---------------------------------------------------
+            Header top css
+---------------------------------------------------*/
+
+.logo img {
+    height: 50px;
+    width: 160px;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {}
+
+.navbar-default .navbar-nav .social-icon a {
+    background: #000 none repeat scroll 0 0;
+    border-radius: 7px;
+    height: 50px;
+    margin: 0 4px;
+}
+
+.navbar-default .navbar-nav .social-icon i {
+    color: #fff;
+    font-size: 20px;
+}
+
+.navbar-default .navbar-nav .social-icon a:hover {
+    background: #000 none repeat scroll 0 0;
+    border-radius: 7px;
+    height: 50px;
+    margin: 0 4px;
+}
+
+.navbar-default .navbar-nav .social-icon i:hover {
+    color: #fff;
+    font-size: 20px;
+}
+
+#fb-login > a {
+    background: #39579a none repeat scroll 0 0;
+    border-radius: 11px;
+    color: #fff;
+}
+
+#fb-login i {
+    margin-right: 11px;
+}
+
+#help i {
+    color: #57ab23;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+/*---------------------------------------------------
+            Header bottom area css
+---------------------------------------------------*/
+
+.navbar {
+    margin-bottom: 0;
+    background: #fff;
+    padding: 10px 0;
+}
+
+.nav.navbar-nav.navbar-right {
+    margin-top: 10px;
+}
+
+.mainmenu-wrap {
+    position: relative;
+    z-index: 999999;
+    transition: all 0.4s ease 0s;
+}
+
+
+.navbar-header .navbar-toggle span {
+    background-color: #fff;
+}
+
+
+.mainmenu-wrap ul.nav.navbar-nav > li a {
+    color: #666;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 35px;
+    padding: 0;
+    position: relative;
+    text-transform: uppercase;
+}
+
+
+.mainmenu-wrap ul.nav.navbar-nav > li a:focus,
+.mainmenu-wrap ul.nav.navbar-nav > li a:hover {
+    background-color: transparent;
+    color: #666;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+
+/*---------------------------------------------------
+            Slider area css
+---------------------------------------------------*/
+
+.background-area {
+    background: rgba(0, 0, 0, 0) url("slider.jpg") repeat scroll center center / cover;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+
+.background-area::before {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    opacity: 0.3;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.slider-btn {
+    margin-top: 40px;
+}
+
+.slider-text {}
+
+.slider-text h1 {
+    color: #fff;
+    font-size: 45px;
+
+}
+
+.slider-text span {
+    color: #8eed5f;
+}
+
+.slider-btn li {
+    list-style: none;
+}
+
+
+.title {
+    color: #8eed5f;
+    font-size: 20px;
+    font-weight: 700;
+    float: left;
+    margin-right: 5px;
+}
+
+.slider-btn li {
+    background: #8eed5f none repeat scroll 0 0;
+    border-radius: 6px;
+    color: #000;
+    margin: 2px;
+    padding: 7px;
+    border: 1px solid #fff;
+}
+
+.slider-btn li a {
+    border-radius: 6px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.slider-btn li i {
+    font-size: 16px;
+    margin-right: 8px;
+}
+
+.address-search {
+    margin-top: 20px;
+}
+
+.scrool-down {
+    text-align: center;
+    color: #fff;
+}
+
+.scrool-down {
+    width: 100%;
+    height: 35px;
+    position: absolute;
+    bottom: -70px;
+    text-align: center;
+    overflow: visible;
+}
+
+.gdbutton {
+    margin: 0 auto;
+    height: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 40px;
+    font-family: iconFont;
+    font-size: 45px;
+    cursor: pointer;
+}
+
+.scrool-down i {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+}
+
+a.slide-btn {
+    animation-duration: 0.4s;
+    -webkit-animation-duration: 0.4s;
+    animation-fill-mode: both;
+    animation-delay: 0.4s;
+    -webkit-animation-delay: 0.4s;
+}
+
+a.slide-btn {
+    width: 200px;
+    height: 55px;
+    font-weight: 500;
+    line-height: 55px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 3px;
+    border-bottom: 3px solid #d59124;
+    color: #fff;
+
+}
+
+
+/*---------------------------------------------------
+            About area css
+---------------------------------------------------*/
+
+.single-about {
+    text-align: center;
+}
+
+.more-about {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ab-icon i {
+    color: #55ab21;
+    font-size: 50px;
+}
+
+.ab-icon > p {
+    color: #909090;
+}
+
+.ab-icon h4 {
+    color: #55ab21;
+    margin: 10px 0;
+}
+
+.more-about a {
+    color: #349d00;
+}
+
+/*---------------------------------------------------
+            Service area css
+---------------------------------------------------*/
+
+.service-area {
+    background: url(slider.jpg);
+    position: relative;
+
+}
+
+.service-area::before {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    opacity: 0.3;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+
+.service-btm-left > h1 {
+    background: #ffec1b none repeat scroll 0 0;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.service-btm-left > p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.service-btm-left,
+.service-btm-right {
+    margin: 50px 0;
+}
+
+.service-btm-right > h1 {
+    background: #5A3565;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center
+}
+
+.service-btm-right > p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.service-title > h1 {
+    color: #fff;
+    font-size: 50px;
+    margin: 10px 0;
+    text-transform: capitalize;
+}
+
+
+/*---------------------------------------------------
+            Footer area css
+---------------------------------------------------*/
+
+.footer-logo img {
+    height: 50px;
+    width: 10%;
+}
+
+.footer-widget-1 li {
+    list-style: outside none none;
+}
+
+.importent-link a {
+    color: #9c9c9c;
+    text-decoration: none;
+}
+
+.footer-widget-2 li {
+    list-style: outside none none;
+}
+
+.footer-widget-2 a {
+    color: #9c9c9c;
+}
+
+.social-link i {
+    background: #000 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    display: table-cell;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    width: 40px;
+}
+
+.footer-widget-3 li {
+    list-style: outside none none;
+}
+
+.footer-widget-3 a {
+    color: #9c9c9c;
+}
